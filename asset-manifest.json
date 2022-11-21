@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ceccb64.css",
-    "main.js": "/static/js/main.c0168e6d.js",
-    "static/media/imageSlider11.jpg": "/static/media/imageSlider11.c816f62f297bcd936367.jpg",
-    "static/media/imageSlider9.jpg": "/static/media/imageSlider9.7997d47e0016377281c6.jpg",
-    "static/media/imageSlider5.jpg": "/static/media/imageSlider5.0483d188e64ecccfab4f.jpg",
-    "static/media/imageSlider7.jpg": "/static/media/imageSlider7.6419e4c0da2e579b0635.jpg",
-    "static/media/imageSlider2.jpg": "/static/media/imageSlider2.e0a2cf6b0a5293950d20.jpg",
-    "static/media/imageSlider8.jpg": "/static/media/imageSlider8.776412ee86f87b1e1039.jpg",
-    "static/media/imageSlider3.jpg": "/static/media/imageSlider3.0ab4b2897e76e99707b3.jpg",
-    "static/media/imageSlider4.jpg": "/static/media/imageSlider4.e15ee426490216d35003.jpg",
-    "static/media/imageSlider6.jpg": "/static/media/imageSlider6.4b0dcd7f66278b3cef3d.jpg",
-    "static/media/imageSlider1.jpg": "/static/media/imageSlider1.0a720065024388c6f4e7.jpg",
-    "static/media/imageSlider12.jpg": "/static/media/imageSlider12.e497edd6c3f0cfe4472b.jpg",
-    "static/media/imageSlider10.jpg": "/static/media/imageSlider10.6f10a70d78dd9af660a3.jpg",
-    "static/media/youtubeLogo.png": "/static/media/youtubeLogo.b0302458870bce428d26.png",
-    "static/media/logo.png": "/static/media/logo.d21f82c2529507e26419.png",
-    "index.html": "/index.html",
-    "main.8ceccb64.css.map": "/static/css/main.8ceccb64.css.map",
-    "main.c0168e6d.js.map": "/static/js/main.c0168e6d.js.map"
+    "main.css": "/WRLDWD/static/css/main.8ceccb64.css",
+    "main.js": "/WRLDWD/static/js/main.4d76b6ad.js",
+    "static/media/imageSlider11.jpg": "/WRLDWD/static/media/imageSlider11.c816f62f297bcd936367.jpg",
+    "static/media/imageSlider9.jpg": "/WRLDWD/static/media/imageSlider9.7997d47e0016377281c6.jpg",
+    "static/media/imageSlider5.jpg": "/WRLDWD/static/media/imageSlider5.0483d188e64ecccfab4f.jpg",
+    "static/media/imageSlider7.jpg": "/WRLDWD/static/media/imageSlider7.6419e4c0da2e579b0635.jpg",
+    "static/media/imageSlider2.jpg": "/WRLDWD/static/media/imageSlider2.e0a2cf6b0a5293950d20.jpg",
+    "static/media/imageSlider8.jpg": "/WRLDWD/static/media/imageSlider8.776412ee86f87b1e1039.jpg",
+    "static/media/imageSlider3.jpg": "/WRLDWD/static/media/imageSlider3.0ab4b2897e76e99707b3.jpg",
+    "static/media/imageSlider4.jpg": "/WRLDWD/static/media/imageSlider4.e15ee426490216d35003.jpg",
+    "static/media/imageSlider6.jpg": "/WRLDWD/static/media/imageSlider6.4b0dcd7f66278b3cef3d.jpg",
+    "static/media/imageSlider1.jpg": "/WRLDWD/static/media/imageSlider1.0a720065024388c6f4e7.jpg",
+    "static/media/imageSlider12.jpg": "/WRLDWD/static/media/imageSlider12.e497edd6c3f0cfe4472b.jpg",
+    "static/media/imageSlider10.jpg": "/WRLDWD/static/media/imageSlider10.6f10a70d78dd9af660a3.jpg",
+    "static/media/youtubeLogo.png": "/WRLDWD/static/media/youtubeLogo.b0302458870bce428d26.png",
+    "static/media/logo.png": "/WRLDWD/static/media/logo.d21f82c2529507e26419.png",
+    "index.html": "/WRLDWD/index.html",
+    "main.8ceccb64.css.map": "/WRLDWD/static/css/main.8ceccb64.css.map",
+    "main.4d76b6ad.js.map": "/WRLDWD/static/js/main.4d76b6ad.js.map"
   },
   "entrypoints": [
     "static/css/main.8ceccb64.css",
-    "static/js/main.c0168e6d.js"
+    "static/js/main.4d76b6ad.js"
   ]
 }
