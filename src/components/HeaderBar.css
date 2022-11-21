@@ -1,0 +1,35 @@
+.headerBar {
+    margin: 0;
+    padding: 0;
+    height: 6vh;
+    background-color: #222;
+}
+
+.headerBarWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navHamburger, .shoppingCartMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #222;
+    border: none;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    gap: 0.3rem;
+}
+
+.navHamburger>img {
+    width: 43%;
+}
+
+ 

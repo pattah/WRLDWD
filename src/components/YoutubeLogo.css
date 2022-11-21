@@ -1,0 +1,11 @@
+.youtubeLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.youtubeLogo>img {
+    max-width: 50%;
+    height: auto;
+}

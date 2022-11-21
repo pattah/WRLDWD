@@ -1,0 +1,19 @@
+footer {
+    margin-top: 8rem;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+footer>span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    font-weight: lighter;
+    width: 100vw;
+    margin-top: 8rem;
+}
