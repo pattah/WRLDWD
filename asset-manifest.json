@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WRLDWD/static/css/main.0785a817.css",
-    "main.js": "/WRLDWD/static/js/main.d2ed43a0.js",
+    "main.css": "/WRLDWD/static/css/main.19f31020.css",
+    "main.js": "/WRLDWD/static/js/main.dafb94b8.js",
     "static/media/imageSlider7.jpg": "/WRLDWD/static/media/imageSlider7.8c521d94d9fbc03fceb8.jpg",
     "static/media/imageSlider4.jpg": "/WRLDWD/static/media/imageSlider4.28e30f06b827cdbce0c0.jpg",
     "static/media/imageSlider9.jpg": "/WRLDWD/static/media/imageSlider9.098989f40f30118e1f6c.jpg",
@@ -9,7 +9,7 @@
     "static/media/logo.png": "/WRLDWD/static/media/logo.d21f82c2529507e26419.png",
     "static/media/imageSlider2.jpg": "/WRLDWD/static/media/imageSlider2.7eebeff5c56e4ad1d7d6.jpg",
     "static/media/imageSlider3.jpg": "/WRLDWD/static/media/imageSlider3.9ddde75601dbb5a70018.jpg",
-    "static/media/imageSlider1.jpg": "/WRLDWD/static/media/imageSlider1.bb0566dbbd1867ea2f61.jpg",
+    "static/media/imageSlider1.jpg": "/WRLDWD/static/media/imageSlider1.0a429389f752687cef8a.jpg",
     "static/media/imageSlider11.jpg": "/WRLDWD/static/media/imageSlider11.29bee52b8539b6e6ccf6.jpg",
     "static/media/imageSlider12.jpg": "/WRLDWD/static/media/imageSlider12.52d540737daf190f55a7.jpg",
     "static/media/imageSlider5.jpg": "/WRLDWD/static/media/imageSlider5.a3a5451b4266105217aa.jpg",
@@ -17,11 +17,11 @@
     "static/media/imageSlider6.jpg": "/WRLDWD/static/media/imageSlider6.5da8d1758f11173ff8e0.jpg",
     "static/media/imageSlider10.jpg": "/WRLDWD/static/media/imageSlider10.06e7702605f921ad147b.jpg",
     "index.html": "/WRLDWD/index.html",
-    "main.0785a817.css.map": "/WRLDWD/static/css/main.0785a817.css.map",
-    "main.d2ed43a0.js.map": "/WRLDWD/static/js/main.d2ed43a0.js.map"
+    "main.19f31020.css.map": "/WRLDWD/static/css/main.19f31020.css.map",
+    "main.dafb94b8.js.map": "/WRLDWD/static/js/main.dafb94b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0785a817.css",
-    "static/js/main.d2ed43a0.js"
+    "static/css/main.19f31020.css",
+    "static/js/main.dafb94b8.js"
   ]
 }
