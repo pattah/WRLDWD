@@ -1,5 +1,8 @@
+import { Route } from 'react-router';
+import TermsInfoTab from '../components/navTabs/TermsInfoTab';
 import './Header.css';
 import logo from '../images/logo.png';
+
 
 function Header() {
   return (
@@ -8,13 +11,15 @@ function Header() {
         <div className='logoWrapper'>
           <img src={logo} alt='logo'></img>
         </div>
-        <nav className='navBar'>
-          <ul>Home</ul>
-          <ul>Shop</ul>
-          <ul>Contact</ul>
-          <ul>Terms & Info</ul>
-          <ul>Cart</ul>
-        </nav>
+        <switch>
+          <nav className='navBar'>
+            <ul>Home</ul>
+            <ul>Shop</ul>
+            <ul>Contact</ul>
+            <Route exact path='/data' component={TermsInfoTab}><ul>Terms & Info</ul></Route>
+            <ul>Cart</ul>
+          </nav>
+        </switch>
       </div>  
     </header>
   )

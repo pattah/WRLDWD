@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import './MainSlider.css';
-import SlideImages from '../components/SlideImages';
+import SlideImages from '../components/SlideImages'; // array of images for a slider // 
 import leftArrow from '../images/leftArrow.png';
 import rightArrow from '../images/rightArrow.png';
+import './MainSlider.css';
 
 function MainSlider() {
   const slides = SlideImages
-
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
   const [direction, setDirection] = useState(0);
@@ -15,11 +14,11 @@ function MainSlider() {
   const sliderLeft = {
     backgroundImage: `url(${slides[leftIndex].image})`,
   }
-
   const sliderRight = {
     backgroundImage: `url(${slides[rightIndex].image})`
   }
 
+// Logic behind arrows on a slider //
   const goToPrevious = () => {
     setDirection(-1)
     const firstSlide = leftIndex  === 0 || rightIndex === 0
@@ -49,7 +48,6 @@ function MainSlider() {
       x: 0,
       opacity: 1,
       transition: 'ease-in',
-      
     },
     exit: direction => {
       return { 
@@ -64,7 +62,6 @@ function MainSlider() {
     <main className="mainSlider">
       <AnimatePresence exitBeforeEnter initial={false} custom={direction}>
         <motion.div className='sliderWrapper'  variants={slideAnimation} animate='animate' initial='initial' exit='exit' custom={direction} key={leftIndex}>
-          
             <div className='sliderLeft' style={sliderLeft}>
                 <img 
                   className='leftArrow' 
@@ -79,7 +76,6 @@ function MainSlider() {
                   onClick={goToNext}>
                 </img>
             </div> 
-          
         </motion.div> 
         </AnimatePresence> 
     </main>
