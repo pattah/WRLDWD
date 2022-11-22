@@ -1,5 +1,6 @@
 footer {
-    margin-top: 8rem;
+    
+    padding: 2rem;
 }
 
 footer>div {
@@ -14,6 +15,5 @@ footer>span {
     justify-content: center;
     font-family: 'Courier Prime', monospace;
     font-weight: lighter;
-    width: 100vw;
-    margin-top: 8rem;
+    margin-top: 1.5rem;
 }

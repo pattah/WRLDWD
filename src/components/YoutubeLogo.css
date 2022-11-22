@@ -1,11 +1,39 @@
 .youtubeLogo {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    height: auto;
+    width: 100vw;
+    
+   
     
 }
 
 .youtubeLogo>img {
-    max-width: 50%;
-    height: auto;
+    height: 100px;
+    width: 150px;
+    object-fit: contain;
+    
+}
+
+@media only screen and (min-width: 450px) {
+   
+   
+}
+@media only screen and (min-width: 550px) {
+}
+    
+@media only screen and (min-width: 700px) {
+    
+}
+@media only screen and (min-width: 770px) {
+    
+}
+@media only screen and (min-width: 850px) {
+   
+}
+@media only screen and (min-width: 850px) {
+   
+}
+@media only screen and (min-width: 850px) {
+    
 }

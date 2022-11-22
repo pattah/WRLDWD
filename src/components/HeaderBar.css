@@ -32,4 +32,10 @@
     width: 43%;
 }
 
+@media only screen and (min-width: 770px) {
+    .headerBar {
+        display: none;
+    }
+}
+
  

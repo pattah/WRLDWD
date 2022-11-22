@@ -5,12 +5,14 @@ function Header() {
   return (
     <header className='siteHeader'>
       <div className='headerWrapper'>
-        <img src={logo} alt='logo'></img>
+        <div className='logoWrapper'>
+          <img src={logo} alt='logo'></img>
+        </div>
         <nav className='navBar'>
           <ul>Home</ul>
           <ul>Shop</ul>
           <ul>Contact</ul>
-          <ul>Terms n Info</ul>
+          <ul>Terms & Info</ul>
           <ul>Cart</ul>
         </nav>
       </div>  

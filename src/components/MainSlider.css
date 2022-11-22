@@ -25,60 +25,52 @@
 }
 
 .sliderRight {
-justify-content: flex-end;
+   justify-content: flex-end;
 }
 
 .leftArrow, .rightArrow {
     display: flex;
-    align-items: center;
-   
-}
-
-.leftArrow:hover, .rightArrow:hover {
-    background-color: rgba(255, 255, 255, 0.274);
+    align-items: center; 
 }
 
 .rightArrow {
     justify-content: flex-end;
 }
 
+.leftArrow:hover, .rightArrow:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+}
 
 @media only screen and (min-width: 450px) {
     .mainSlider {
         height: 40vh;
+        transition: height 0.5s;
     }
 }
 @media only screen and (min-width: 550px) {
     .mainSlider {
-        height: 50vh;
+        height: 45vh;
+        transition: height 0.5s;
     }
 }
 @media only screen and (min-width: 700px) {
     .mainSlider {
-        height: 60vh;
+        height: 55vh;
+        transition: height 0.5s;
     }
 }
 @media only screen and (min-width: 770px) {
     .mainSlider {
-        height: 70vh;
+        height: 60vh;
         width: 90vw;
+        transition: height 0.5s;
     }
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1000px) {
     .mainSlider {
-        height: 80vh;
-        width: 90vw;
+        height: 65vh;
+        width: 900px;
+        transition: height 0.5s;
     }
 }
-@media only screen and (min-width: 850px) {
-    .mainSlider {
-        height: 80vh;
-    }
-}
-@media only screen and (min-width: 850px) {
-    .mainSlider {
-        height: 70vh;
-        width: 800px;
-        
-    }
-}
+
