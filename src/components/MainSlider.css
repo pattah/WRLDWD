@@ -19,7 +19,6 @@
     justify-content: space-between;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100%;
     position: relative;
@@ -35,6 +34,51 @@ justify-content: flex-end;
    
 }
 
+.leftArrow:hover, .rightArrow:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
 .rightArrow {
     justify-content: flex-end;
+}
+
+
+@media only screen and (min-width: 450px) {
+    .mainSlider {
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 550px) {
+    .mainSlider {
+        height: 50vh;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .mainSlider {
+        height: 60vh;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .mainSlider {
+        height: 70vh;
+        width: 90vw;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .mainSlider {
+        height: 80vh;
+        width: 90vw;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .mainSlider {
+        height: 80vh;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .mainSlider {
+        height: 70vh;
+        width: 800px;
+        
+    }
 }

@@ -42,43 +42,46 @@ function MainSlider() {
   const slideAnimation = {
     initial: direction => {
       return { 
-        x: direction > 0 ? 200 : -200,
+        x: direction > 0 ? 100 : -100,
         opacity: 0 }
     },
     animate: {
       x: 0,
       opacity: 1,
       transition: 'ease-in',
+      
     },
     exit: direction => {
       return { 
-        x: direction > 0 ? -200 : 200,
+        x: direction > 0 ? -100 : 100,
         opacity: 0,
-        transition: 'ease-in',
+        transition: 'ease-out',
       }
     },
   }
 
   return (
     <main className="mainSlider">
-        <div className='sliderWrapper'>
-          <AnimatePresence initial={false} custom={direction}>
-            <motion.div className='sliderLeft' style={sliderLeft} variants={slideAnimation} animate='animate' initial='initial' exit='exit' custom={direction} key={leftIndex}>
+      <AnimatePresence exitBeforeEnter initial={false} custom={direction}>
+        <motion.div className='sliderWrapper'  variants={slideAnimation} animate='animate' initial='initial' exit='exit' custom={direction} key={leftIndex}>
+          
+            <div className='sliderLeft' style={sliderLeft}>
                 <img 
                   className='leftArrow' 
                   src={leftArrow}
                   onClick={goToPrevious}>
                 </img>
-            </motion.div> 
-            <motion.div className='sliderRight' style={sliderRight} variants={slideAnimation} animate='animate' initial='initial' exit='exit' custom={direction} key={rightIndex}>
+            </div> 
+            <div className='sliderRight' style={sliderRight}>
                 <img 
                   className='rightArrow' 
                   src={rightArrow} 
                   onClick={goToNext}>
                 </img>
-            </motion.div> 
-          </AnimatePresence>
-        </div>  
+            </div> 
+          
+        </motion.div> 
+        </AnimatePresence> 
     </main>
   )
 }
