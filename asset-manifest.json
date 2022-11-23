@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WRLDWD/static/css/main.19f31020.css",
-    "main.js": "/WRLDWD/static/js/main.9f449c9e.js",
+    "main.css": "/WRLDWD/static/css/main.31b3f7f1.css",
+    "main.js": "/WRLDWD/static/js/main.39bc2e7c.js",
     "static/media/imageSlider7.jpg": "/WRLDWD/static/media/imageSlider7.8c521d94d9fbc03fceb8.jpg",
     "static/media/imageSlider4.jpg": "/WRLDWD/static/media/imageSlider4.28e30f06b827cdbce0c0.jpg",
     "static/media/imageSlider9.jpg": "/WRLDWD/static/media/imageSlider9.098989f40f30118e1f6c.jpg",
@@ -17,11 +17,11 @@
     "static/media/imageSlider6.jpg": "/WRLDWD/static/media/imageSlider6.5da8d1758f11173ff8e0.jpg",
     "static/media/imageSlider10.jpg": "/WRLDWD/static/media/imageSlider10.06e7702605f921ad147b.jpg",
     "index.html": "/WRLDWD/index.html",
-    "main.19f31020.css.map": "/WRLDWD/static/css/main.19f31020.css.map",
-    "main.9f449c9e.js.map": "/WRLDWD/static/js/main.9f449c9e.js.map"
+    "main.31b3f7f1.css.map": "/WRLDWD/static/css/main.31b3f7f1.css.map",
+    "main.39bc2e7c.js.map": "/WRLDWD/static/js/main.39bc2e7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f31020.css",
-    "static/js/main.9f449c9e.js"
+    "static/css/main.31b3f7f1.css",
+    "static/js/main.39bc2e7c.js"
   ]
 }
