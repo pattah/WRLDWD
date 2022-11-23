@@ -9,10 +9,8 @@ header>div {
     width: 100%;
 }
 
-header>div>img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%; 
+.logoWrapper {
+    cursor: pointer; 
 }
 
 .navBar {
@@ -20,10 +18,18 @@ header>div>img {
     font-family: 'Courier Prime', monospace;
     text-transform: uppercase;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
-ul:first-child {
-    font-weight: bold;
+.navBar>ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (min-width: 770px) {

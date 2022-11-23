@@ -3,37 +3,10 @@
     justify-content: center;
     height: auto;
     width: 100vw;
-    
-   
-    
 }
 
-.youtubeLogo>img {
-    height: 100px;
+.youtubeLogo>a>img {
+    height: 90px;
     width: 150px;
-    object-fit: contain;
-    
-}
-
-@media only screen and (min-width: 450px) {
-   
-   
-}
-@media only screen and (min-width: 550px) {
-}
-    
-@media only screen and (min-width: 700px) {
-    
-}
-@media only screen and (min-width: 770px) {
-    
-}
-@media only screen and (min-width: 850px) {
-   
-}
-@media only screen and (min-width: 850px) {
-   
-}
-@media only screen and (min-width: 850px) {
-    
+    object-fit: contain; 
 }

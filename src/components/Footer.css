@@ -1,5 +1,4 @@
 footer {
-    
     padding: 2rem;
 }
 
@@ -8,6 +7,7 @@ footer>div {
     justify-content: center;
     text-align: center;
     font-family: 'Courier Prime', monospace;
+    text-decoration: none;
 }
 
 footer>span {
@@ -15,5 +15,10 @@ footer>span {
     justify-content: center;
     font-family: 'Courier Prime', monospace;
     font-weight: lighter;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

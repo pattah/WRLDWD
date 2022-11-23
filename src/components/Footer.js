@@ -5,10 +5,10 @@ function Footer() {
     <footer className="siteFooter">
       <div className="footerWrapper">
         <p>
-        INSTAGRAM /
-        TWITTER /
-        NEWSLETTER /
-        YOUTUBE
+          <a href='https://www.instagram.com/'>INSTAGRAM / </a>
+          <a href='https://twitter.com/'>TWITTER /</a>
+          <a href=''> NEWSLETTER /</a>
+          <a href='https://www.youtube.com/'> YOUTUBE</a>
         </p>
       </div>
       <span className='madeBy'>Made By Bartek Rosa @ 2022</span>

@@ -3,7 +3,9 @@ import './YoutubeLogo.css';
 function YoutubeLogo() {
   return (
     <div className="youtubeLogo">
-      <img src={youtubeLogo} alt="Click to go to WRLDWD'syoutube page"></img>
+      <a href='https://www.youtube.com/'>
+        <img src={youtubeLogo} alt="Click to go to WRLDWD'syoutube page"></img>
+      </a>
     </div>
   )
 }

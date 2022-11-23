@@ -1,23 +1,16 @@
 import './App.css';
-import HeaderBar from '../src/components/HeaderBar';
-import Header from '../src/components/Header'
-import MainSlider from '../src/components/MainSlider';
-import YoutubeLogo from '../src/components/YoutubeLogo';
-import Footer from '../src/components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import TermsInfoTab from '../src/components/navTabs/TermsInfoTab';
+import {HomeTab, ShopTab, ContactTab, TermsInfoTab, CartTab} from '../src/components/navTabs/NavTabs';
 
 function App() {
   return (
     <BrowserRouter>
-    <HeaderBar />
-    <Header />
-    <MainSlider />
-    <YoutubeLogo />
-    <Footer />
-
-    <Routes>
-        <Route path="/essa" element={<TermsInfoTab />}></Route>
+      <Routes>
+        <Route exact path="/" element={<HomeTab />}></Route>
+        <Route path="/Shop" element={<ShopTab />}></Route>
+        <Route path="/Contact" element={<ContactTab />}></Route>
+        <Route path="/TermsInfo" element={<TermsInfoTab />}></Route>
+        <Route path="/Cart" element={<CartTab />}></Route>
       </Routes>
     </BrowserRouter>
   )
