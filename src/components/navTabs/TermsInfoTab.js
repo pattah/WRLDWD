@@ -7,7 +7,7 @@ function TermsInfoTab() {
     <>
       <HeaderBar />
       <Header />
-      <Footer />
+      
     </>
   )
 }

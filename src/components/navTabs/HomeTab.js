@@ -8,9 +8,7 @@ function HomeTab() {
     <>
       <HeaderBar />
       <Header />
-      <MainSlider />
-      <YoutubeLogo />
-      <Footer />
+      
     </>
   )
 }

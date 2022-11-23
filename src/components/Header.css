@@ -32,6 +32,14 @@ header>div {
     color: black;
 }
 
+.activeTab {
+    font-weight: bold;
+}
+
+.homePageActive {
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 770px) {
     header {
         margin: 0 auto;

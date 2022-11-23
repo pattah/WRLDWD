@@ -6,10 +6,10 @@ import rightArrow from '../images/rightArrow.png';
 import './MainSlider.css';
 
 function MainSlider() {
-  const slides = SlideImages
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(1);
   const [direction, setDirection] = useState(0);
+  const slides = SlideImages
 
   const sliderLeft = {
     backgroundImage: `url(${slides[leftIndex].image})`,

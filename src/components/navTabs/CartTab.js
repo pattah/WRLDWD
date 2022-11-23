@@ -7,7 +7,7 @@ function CartTab() {
     <>
       <HeaderBar />
       <Header />
-      <Footer />
+      
     </>
   )
 }
