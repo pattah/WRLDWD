@@ -2,8 +2,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="siteFooter">
-      <div className="footerWrapper">
+    <footer className="site-footer">
+      <div className="footer-wrapper">
         <p>
           <a href='https://www.instagram.com/'>INSTAGRAM / </a>
           <a href='https://twitter.com/'>TWITTER /</a>
@@ -11,7 +11,7 @@ function Footer() {
           <a href='https://www.youtube.com/'> YOUTUBE</a>
         </p>
       </div>
-      <span className='madeBy'>Made By Bartek Rosa @ 2022</span>
+      <span className='made-by'>Made By Bartek Rosa @ 2022</span>
       
     </footer>
   )

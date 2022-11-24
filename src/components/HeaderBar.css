@@ -1,11 +1,11 @@
-.headerBar {
+.header-bar {
     margin: 0;
     padding: 0;
     height: 6vh;
     background-color: #222;
 }
 
-.headerBarWrapper {
+.header-bar-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
     padding-right: 1rem;
 }
 
-.navHamburger, .shoppingCartMobile {
+.nav-hamburger, .shopping-cart-mobile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +28,12 @@
     gap: 0.3rem;
 }
 
-.navHamburger>img {
+.nav-hamburger>img {
     width: 43%;
 }
 
 @media only screen and (min-width: 770px) {
-    .headerBar {
+    .header-bar {
         display: none;
     }
 }

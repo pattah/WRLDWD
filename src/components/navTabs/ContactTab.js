@@ -7,7 +7,7 @@ function ShopTab() {
     <>
       <HeaderBar />
       <Header />
-      
+      <Footer />
     </>
   )
 }

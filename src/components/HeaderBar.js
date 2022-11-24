@@ -4,13 +4,13 @@ import shoppingCart from '../images/shoppingCart.png';
 
 function headerBar() {
   return (
-    <div className='headerBar'>
-      <div className='headerBarWrapper'>
-        <button className='navHamburger'>
+    <div className='header-bar'>
+      <div className='header-bar-wrapper'>
+        <button className='nav-hamburger'>
           <img src={hamburger}></img> 
           <span>Menu</span>
         </button>
-        <button className='shoppingCartMobile'>
+        <button className='shopping-cart-mobile'>
           <img src={shoppingCart}></img>
           <span>Cart</span>
         </button>  
