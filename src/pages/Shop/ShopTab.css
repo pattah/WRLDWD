@@ -1,0 +1,52 @@
+.sort-by {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.66rem;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.8rem;
+    height: 3vh;
+}
+
+.products-catalog {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.products-catalog-wrapper {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: space-between;
+}
+
+.product-container {
+    height: 19rem;
+}
+
+.product-image-wrapper {
+    height: 60%;
+    width: 100%;  
+}
+
+.product-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-description {
+    padding-top: 0.2rem;
+    line-height: 1.3rem;
+    height: 40%;
+    width: 100%;  
+}
+
+.product-brand {
+    font-weight: bold;
+}
+
+.product-type {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.8rem;
+}

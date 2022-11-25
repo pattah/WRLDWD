@@ -1,6 +1,6 @@
 import './App.css';
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
-import {HomeTab, ShopTab, ContactTab, TermsInfoTab, CartTab} from '../src/components/navTabs/NavTabs';
+import { Route, Routes } from 'react-router-dom';
+import { HomeTab, ShopTab, ContactTab, TermsInfoTab, CartTab } from '../src/components/NavTabs';
 
 function App() {
   return (

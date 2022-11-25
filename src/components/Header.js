@@ -1,7 +1,6 @@
 import './Header.css';
-import logo from '../images/logo.png';
+import logo from '../assets/logo.png';
 import { NavLink } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 
 function Header() {
   const activeStyle = {

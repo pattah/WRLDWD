@@ -1,6 +1,6 @@
 import './HeaderBar.css'
-import hamburger from '../images/hamburger.png';
-import shoppingCart from '../images/shoppingCart.png';
+import hamburger from '../assets/hamburger.png';
+import shoppingCart from '../assets/shoppingCart.png';
 
 function headerBar() {
   return (
