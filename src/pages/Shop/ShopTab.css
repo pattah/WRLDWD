@@ -2,7 +2,7 @@
     width: 85vw;
     display: flex;
     justify-content: space-between;
-    padding-left: 1.66rem;
+    margin: 0 auto;
     font-family: 'Courier Prime', monospace;
     font-size: 0.8rem;
     height: 3vh;
@@ -15,13 +15,14 @@
 
 .products-catalog-wrapper {
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 49% 49%;
     grid-template-rows: 25% 25% 25% 25%;
     justify-content: space-between;
 }
 
 .product-container {
-    height: 19rem;
+    height: auto;
+    width: auto;
 }
 
 .product-image-wrapper {
@@ -49,4 +50,69 @@
 .product-type {
     font-family: 'Courier Prime', monospace;
     font-size: 0.8rem;
+}
+
+.more-coming-soon {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+@media only screen and (min-width: 475px) {
+    .products-catalog-wrapper {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 33% 33% 33% 33%;
+    }
+    .product-type {
+        font-family: 'Courier Prime', monospace;
+        font-size: 0.7rem;
+    }    
+}
+
+@media only screen and (min-width: 650px) {
+    .product-type {
+        font-family: 'Courier Prime', monospace;
+        font-size: 0.8rem;
+    }    
+}
+
+@media only screen and (min-width: 770px) {
+    .sort-by {
+        width: 90vw;
+    }
+    .products-catalog {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .product-type {
+        font-family: 'Courier Prime', monospace;
+        font-size: 0.9rem;
+    }    
+}
+
+@media only screen and (min-width: 900px) {
+    .sort-by {
+        width: 800px;
+    }
+    .products-catalog-wrapper {
+        width: 800px;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 33% 33% 33% 33%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .sort-by {
+        width: 900px;
+    }
+    .products-catalog-wrapper {
+        width: 900px;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 33% 33% 33% 33%;
+        margin: 0 auto;
+    }
 }

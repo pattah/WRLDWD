@@ -29,6 +29,7 @@ function ShopTab() {
             </div>
           )})}
         </div>
+        <span className='more-coming-soon'>More coming soon...</span>
       </main>
       <Footer />
     </>

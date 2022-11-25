@@ -32,6 +32,38 @@
     width: 43%;
 }
 
+.mobile-nav-bar, .mobile-nav-bar-wrapper {
+    transition: all .5s ease-in-out;
+    background-color: #222;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.mobile-nav-bar-wrapper>ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.mobile-nav-bar-wrapper>ul>li {
+    margin-top: 1px;
+    margin-left: 1px;
+    padding: 0.8rem;
+    outline: 1px solid rgb(100, 100, 100);
+}
+
+.mobile-nav-bar-wrapper>ul>li>a {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
 @media only screen and (min-width: 770px) {
     .header-bar {
         display: none;
