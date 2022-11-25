@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/WRLDWD/static/css/main.0ad6d1c4.css",
-    "main.js": "/WRLDWD/static/js/main.78806af1.js",
+    "main.css": "/WRLDWD/static/css/main.b70e0913.css",
+    "main.js": "/WRLDWD/static/js/main.fd2024c7.js",
+    "static/media/productEight.jpg": "/WRLDWD/static/media/productEight.120242a1aec7133a06a8.jpg",
+    "static/media/productThree.jpg": "/WRLDWD/static/media/productThree.d3e35ba886f9a7f7d889.jpg",
+    "static/media/productFive.jpg": "/WRLDWD/static/media/productFive.4927c91ac1fe21b51980.jpg",
+    "static/media/productTwo.jpg": "/WRLDWD/static/media/productTwo.03cc988b8237312bc5c4.jpg",
+    "static/media/productSeven.jpg": "/WRLDWD/static/media/productSeven.431803515a94afd55568.jpg",
+    "static/media/productFour.jpg": "/WRLDWD/static/media/productFour.1a6d8de497a29aa26285.jpg",
+    "static/media/productOne.jpg": "/WRLDWD/static/media/productOne.294b035566f60ef9c915.jpg",
+    "static/media/productSix.jpg": "/WRLDWD/static/media/productSix.049ee1b2c98eb8b5b6d5.jpg",
     "static/media/imageSlider7.jpg": "/WRLDWD/static/media/imageSlider7.8c521d94d9fbc03fceb8.jpg",
     "static/media/imageSlider4.jpg": "/WRLDWD/static/media/imageSlider4.28e30f06b827cdbce0c0.jpg",
     "static/media/imageSlider9.jpg": "/WRLDWD/static/media/imageSlider9.098989f40f30118e1f6c.jpg",
@@ -17,11 +25,11 @@
     "static/media/imageSlider6.jpg": "/WRLDWD/static/media/imageSlider6.5da8d1758f11173ff8e0.jpg",
     "static/media/imageSlider10.jpg": "/WRLDWD/static/media/imageSlider10.06e7702605f921ad147b.jpg",
     "index.html": "/WRLDWD/index.html",
-    "main.0ad6d1c4.css.map": "/WRLDWD/static/css/main.0ad6d1c4.css.map",
-    "main.78806af1.js.map": "/WRLDWD/static/js/main.78806af1.js.map"
+    "main.b70e0913.css.map": "/WRLDWD/static/css/main.b70e0913.css.map",
+    "main.fd2024c7.js.map": "/WRLDWD/static/js/main.fd2024c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ad6d1c4.css",
-    "static/js/main.78806af1.js"
+    "static/css/main.b70e0913.css",
+    "static/js/main.fd2024c7.js"
   ]
 }
