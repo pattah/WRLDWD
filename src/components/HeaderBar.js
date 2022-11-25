@@ -16,7 +16,7 @@ function HeaderBar() {
         <div className='header-bar-wrapper'>
           <button className='nav-hamburger'>
             <img src={hamburger} onClick={toggleOpen}></img> 
-            <span>Menu</span>
+            <span onClick={toggleOpen}>Menu</span>
           </button>
           <button className='shopping-cart-mobile'>
             <img src={shoppingCart}></img>

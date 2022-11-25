@@ -61,23 +61,30 @@ function MainSlider() {
   return (
     <main className="main-slider">
       <AnimatePresence exitBeforeEnter initial={false} custom={direction}>
-        <motion.div className='slider-wrapper' variants={slideAnimation} animate='animate' initial='initial' exit='exit' custom={direction} key={leftIndex}>
+        <motion.div 
+          className='slider-wrapper' 
+          variants={slideAnimation} 
+          animate='animate' 
+          initial='initial' 
+          exit='exit' 
+          custom={direction} 
+          key={leftIndex}>
             <div className='slider-left' style={sliderLeft}>
-                <img 
-                  className='left-arrow' 
-                  src={leftArrow}
-                  onClick={goToPrevious}>
-                </img>
-            </div> 
+              <img 
+                className='left-arrow' 
+                src={leftArrow}
+                onClick={goToPrevious}>
+              </img>
+              </div> 
             <div className='slider-right' style={sliderRight}>
-                <img 
-                  className='right-arrow' 
-                  src={rightArrow} 
-                  onClick={goToNext}>
-                </img>
+              <img 
+                className='right-arrow' 
+                src={rightArrow} 
+                onClick={goToNext}>
+              </img>
             </div> 
         </motion.div> 
-        </AnimatePresence> 
+      </AnimatePresence> 
     </main>
   )
 }
