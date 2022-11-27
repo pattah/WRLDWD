@@ -1,0 +1,58 @@
+* {
+    font-family: 'Courier Prime', monospace;
+}
+
+.item-page {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.item-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container>img {
+    width: 90vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item-name {
+    padding-top: 1rem;
+}
+
+.item-name>span:first-child {
+    font-weight: bold;
+}
+
+.item-name>span {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    
+}
+
+.item-description>p {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    height: 80px;
+}
+
+.item-description>span {
+    font-weight: bold;
+}
+
+.item-page-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.3rem;
+    width: 90vw;
+}
+
+.item-page-buttons>button {
+    color: white;
+    background-color: #222;
+    border: none;
+    padding: 0.5rem;
+}
