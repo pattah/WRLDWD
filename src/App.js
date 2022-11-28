@@ -2,11 +2,11 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { HomeTab, ShopTab, ContactTab, TermsInfoTab, CartTab } from '../src/components/NavTabs';
 import ItemPage from '../src/pages/Shop/ItemPage';
-
+import CartProvider from '../src/pages/Cart/CartContext';
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Routes>
         <Route path="/" element={<HomeTab />}></Route>
         <Route path="/Shop" element={<ShopTab />}></Route>
@@ -17,7 +17,7 @@ function App() {
         <Route path="/TermsInfo" element={<TermsInfoTab />}></Route>
         <Route path="/Cart" element={<CartTab />}></Route>
       </Routes>
-    </>
+    </CartProvider>
   )
 }
 

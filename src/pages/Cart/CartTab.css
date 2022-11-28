@@ -1,0 +1,10 @@
+.cart-container {
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.cart-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

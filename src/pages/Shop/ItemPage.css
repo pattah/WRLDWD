@@ -99,7 +99,8 @@
 
 @media only screen and (min-width: 770px) {
     .item-page {
-        margin-top: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
     }
     .image-container>img {
         width: 350px
@@ -116,9 +117,5 @@
         width: 70%;
     }
 
-    
-    
 }
-
-
 
