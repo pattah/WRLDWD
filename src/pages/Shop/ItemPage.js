@@ -1,9 +1,10 @@
+import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 import HeaderBar from '../../components/HeaderBar';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import './ItemPage.css';
 import products from './ProductsListing';
-import { useParams } from 'react-router';
+import './ItemPage.css';
 
 function ItemPage() {
   const { productId } = useParams();
@@ -20,17 +21,28 @@ function ItemPage() {
             <img src={ image } alt=''></img>
           </div>
           <div className='item-description'>
-            <div className='item-name'>
-              <span>{ brand }  </span> 
-              <span> - { type }</span>
+            <div className='item-desc-wrapper'>
+              <div className='item-name'>
+                <span>{ brand }  </span> 
+                <span> - { type }</span>
+              </div>
+              <p>{ desc }</p>
             </div>
-            <p>{ desc }</p>
-            <span>{ price }</span>
-          </div>
+            <div className='item-size'>
+                <select className='size'>
+                  <option value='medium'>medium</option>
+                  <option value='large'>large</option>
+                  <option value='xxl'>XXL</option>
+                </select>
+                </div>
+            <div className='item-price'>
+              <span>{ price }</span>
+            </div>
             <div className='item-page-buttons'>
               <button className='add-cart'>Add to cart</button>
-              <button className='continue-shopping'>Keep shopping</button>
+              <button className='continue-shopping'><Link to='/Shop'>Keep shopping</Link></button>
             </div>
+          </div>
         </div>
       </main>
       <Footer />
