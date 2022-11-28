@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WRLDWD/static/css/main.eb9f2317.css",
-    "main.js": "/WRLDWD/static/js/main.ba0b82e8.js",
+    "main.css": "/WRLDWD/static/css/main.9c0b002e.css",
+    "main.js": "/WRLDWD/static/js/main.fa4bb472.js",
     "static/media/productFive.jpg": "/WRLDWD/static/media/productFive.d808ed9dd703c5778c46.jpg",
     "static/media/productThree.jpg": "/WRLDWD/static/media/productThree.0f76bc3abd6732bd949f.jpg",
     "static/media/imageSlider7.jpg": "/WRLDWD/static/media/imageSlider7.8c521d94d9fbc03fceb8.jpg",
@@ -25,11 +25,11 @@
     "static/media/imageSlider6.jpg": "/WRLDWD/static/media/imageSlider6.5da8d1758f11173ff8e0.jpg",
     "static/media/imageSlider10.jpg": "/WRLDWD/static/media/imageSlider10.06e7702605f921ad147b.jpg",
     "index.html": "/WRLDWD/index.html",
-    "main.eb9f2317.css.map": "/WRLDWD/static/css/main.eb9f2317.css.map",
-    "main.ba0b82e8.js.map": "/WRLDWD/static/js/main.ba0b82e8.js.map"
+    "main.9c0b002e.css.map": "/WRLDWD/static/css/main.9c0b002e.css.map",
+    "main.fa4bb472.js.map": "/WRLDWD/static/js/main.fa4bb472.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb9f2317.css",
-    "static/js/main.ba0b82e8.js"
+    "static/css/main.9c0b002e.css",
+    "static/js/main.fa4bb472.js"
   ]
 }
