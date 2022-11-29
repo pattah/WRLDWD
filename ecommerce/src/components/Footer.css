@@ -1,0 +1,24 @@
+footer {
+    padding: 2rem;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    text-decoration: none;
+}
+
+footer>span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    font-weight: lighter;
+    margin-top: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,12 @@
+.youtube-logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+}
+
+.youtube-logo>a>img {
+    height: 90px;
+    width: 150px;
+    object-fit: contain; 
+}
