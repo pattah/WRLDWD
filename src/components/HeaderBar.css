@@ -1,0 +1,78 @@
+.header-bar {
+    margin: 0;
+    padding: 0;
+    height: 6vh;
+    background-color: #222;
+}
+
+.header-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-hamburger, .shopping-cart-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #222;
+    border: none;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    gap: 0.3rem;
+}
+.nav-hamburger>img {
+    width: 25px;
+    height: 25px;
+}
+.shopping-cart-mobile>img {
+    width: 22px;
+    height: 22px;
+    
+    
+    
+}
+
+.mobile-nav-bar, .mobile-nav-bar-wrapper {
+    transition: all .5s ease-in-out;
+    background-color: #222;
+    width: 100%;
+    height: auto;
+}
+
+
+.mobile-nav-bar-wrapper>ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile-nav-bar-wrapper>ul>li {
+    margin-top: 1px;
+    margin-left: 1px;
+    padding: 0.8rem;
+    outline: 1px solid rgb(100, 100, 100);
+}
+
+.mobile-nav-bar-wrapper>ul>li>a {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 770px) {
+    .header-bar {
+        display: none;
+    }
+}
+
+ 
