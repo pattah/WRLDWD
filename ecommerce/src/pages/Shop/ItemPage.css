@@ -63,6 +63,7 @@
 }
 
 .add-cart, .item-page-buttons>button>a, .add-remove-buttons-container>button {
+    cursor: pointer;
     color: white;
     background-color: #222;
     border: none;
@@ -70,6 +71,7 @@
 }
 
 .remove-cart {
+    cursor: pointer;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: none;
